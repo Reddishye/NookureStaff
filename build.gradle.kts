@@ -52,6 +52,7 @@ tasks.shadowJar {
   relocate("com.github.benmanes.caffeine", "com.nookure.staff.libs.caffeine")
   relocate("org.spongepowered.configurate", "com.nookure.staff.libs.configurate")
   relocate("com.alessiodp.libby", "com.nookure.staff.libs.libby")
+  relocate("com.google.inject", "com.nookure.staff.libs.inject")
 }
 
 allprojects {
